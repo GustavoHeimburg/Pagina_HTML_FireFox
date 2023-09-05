@@ -8,8 +8,11 @@ h1{
     text-align: center;
 }
 html{
-    background: linear-gradient(pink, blue, white);
+    background: linear-gradient( blue, white);
 }
 body{
-  width: 550px
+  width: 550px;
+    margin: 0 auto;
+    background: lightgray;
+    padding: 80px 80px 80px;
 }
