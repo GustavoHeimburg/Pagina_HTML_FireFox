@@ -45,7 +45,8 @@ image.onclick = function (){
 }
 
 //MANIPULANDO O NOME DO USUARIO
-var nomeP = document.querySelector('button')
+var nomeP = document.querySelector('button');
+var novoT = document.querySelector('h1');
  function setNPNT(){
     let meuNome = prompt('Digite seu nome.');
     alert(`Bem vindo ${meuNome}`)
@@ -53,8 +54,16 @@ var nomeP = document.querySelector('button')
          setNPNT();
      }else {
          localStorage.setItem('name', meuNome);
+         novoT.innerHTML = `Moziila é legal, ${meuNome}`
      }
  }
  nomeP.onclick = function (){
     setNPNT();
+ }
+
+ if (!localStorage.getItem('name')){
+     setNPNT();
+ }else {
+     let storageName = localStorage.setItem('name');
+     novoT.innerHTML = 'Mozilla e maneiro, ' + storageName;
  }
