@@ -28,3 +28,8 @@ function div (valor1, valor2){
 }
 console.log(multi(2, 5))
 console.log(div(5, 2))
+
+document.querySelector("html")
+.addEventListener("click", function (){
+alert("opa Voce clicou na tela piaaaa")
+})
