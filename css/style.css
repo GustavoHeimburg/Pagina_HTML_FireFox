@@ -30,4 +30,9 @@ p, li{
 }
 button{
     font-size: 25px;
+    border-radius: 15px;
+    padding:10px;
+    font-size: 11px;
+    background-image: url("Imagens/favicon.png");
+    display: inline-block;
 }
