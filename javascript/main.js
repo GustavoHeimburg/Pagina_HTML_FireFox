@@ -67,3 +67,18 @@ var novoT = document.querySelector('h1');
      let storageName = localStorage.setItem('name');
      novoT.innerHTML = 'Mozilla e maneiro, ' + storageName;
  }
+
+ function x(){
+     console.log("Caiu na funcao")
+ }
+var nun = 1;
+
+ if (!nun > 0){
+     x();
+ }else {
+     console.log("Nao caiu na funcao");
+ }
+
+ //ft.push / unshift = ADICIONA
+//ft.pop / shift = REMOVE
+
